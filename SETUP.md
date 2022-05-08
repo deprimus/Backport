@@ -1,0 +1,87 @@
+# Backport setup
+
+This guide isn't in-depth. If you don't know what this is, you don't need it.
+
+You must have [risa-sharp](https://github.com/exom-dev/risa-sharp) in your Unity project, and also a [C99 Risa](https://github.com/exom-dev/risa) DLL.
+
+Afterwards, create an object structure like this:
+
+<p align="center">
+  <img src="public/setup_structure.png" alt="Backport object structure">
+</p>
+
+Here's how each object looks:
+
+<p align="center">
+  <img src="public/setup_backport.png" alt="Backport">
+</p>
+
+<p align="center">
+  <img src="public/setup_console_canvas.png" alt="Backport console canvas">
+</p>
+
+<p align="center">
+  <img src="public/setup_background.png" alt="Backport background">
+</p>
+
+<p align="center">
+  <img src="public/setup_output_container.png" alt="Backport output container">
+</p>
+
+<p align="center">
+  <img src="public/setup_output.png" alt="Backport output">
+</p>
+
+<p align="center">
+  <img src="public/setup_output_text_area.png" alt="Backport output text area">
+</p>
+
+<p align="center">
+  <img src="public/setup_output_placeholder.png" alt="Backport output placeholder">
+</p>
+
+<p align="center">
+  <img src="public/setup_output_text.png" alt="Backport output text">
+</p>
+
+<p align="center">
+  <img src="public/setup_scrollbar.png" alt="Backport output scrollbar">
+</p>
+
+<p align="center">
+  <img src="public/setup_sliding_area.png" alt="Backport sliding area">
+</p>
+
+<p align="center">
+  <img src="public/setup_handle.png" alt="Backport handle">
+</p>
+
+<p align="center">
+  <img src="public/setup_input_container.png" alt="Backport input container">
+</p>
+
+<p align="center">
+  <img src="public/setup_input_prefix.png" alt="Backport input prefix">
+</p>
+
+<p align="center">
+  <img src="public/setup_input.png" alt="Backport input">
+</p>
+
+<p align="center">
+  <img src="public/setup_input_text_area.png" alt="Backport input text area">
+</p>
+
+<p align="center">
+  <img src="public/setup_input_placeholder.png" alt="Backport input placeholder">
+</p>
+
+<p align="center">
+  <img src="public/setup_input_text.png" alt="Backport input text">
+</p>
+
+Disable `Console Canvas`, and and make a prefab out of the root object. Make sure this object is present in every scene.
+
+Implement your own commands in `BackportCommands.cs` as native Risa functions, and you're all set.
+
+You now have a fully-functional in-game console. Press `~` to show/hide it.
