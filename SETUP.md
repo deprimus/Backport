@@ -1,4 +1,8 @@
-# Backport setup
+<p align="center">
+  <img src="public/logo.png" alt="Backport">
+</p>
+
+# Setup
 
 This guide isn't in-depth. If you don't know what this is, you don't need it.
 
