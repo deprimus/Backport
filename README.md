@@ -4,7 +4,7 @@
 
 # About <a href="https://unity.com"><img align="right" src="https://img.shields.io/badge/Unity-2020.3.2f1-000000?logo=Unity" alt="Unity 20" /></a>
 
-**Backport** is a bridge between Unity and Risa (the C99 implementation). It was designed to be used for in-game consoles.
+**Backport** is a bridge between Unity and [Risa](https://github.com/exom-dev/risa). It was designed to be used for in-game consoles.
 
 # Setup
 

@@ -7,6 +7,7 @@
 This guide isn't in-depth. If you don't know what this is, you don't need it.
 
 You must have [risa-sharp](https://github.com/exom-dev/risa-sharp) in your Unity project, and also a [C99 Risa](https://github.com/exom-dev/risa) DLL.
+Note that they are **included** in all Backport releases on this repo, so you can directly use those.
 
 Afterwards, create an object structure like this:
 
