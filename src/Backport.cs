@@ -10,13 +10,7 @@ using TMPro;
 [DefaultExecutionOrder(-10000)]
 public class Backport : MonoBehaviour
 {
-    public enum State
-    {
-        IDLE,
-        VM_RUNNING,
-        VM_RUNNING_AUTOEXEC
-    }
-
+    public static string BACKPORT_VERSION = "0.2";
     // If the VM enters an infinite loop, don't freeze the game.
     public static uint MAX_INSTRUCTIONS_PER_FRAME = 100;
     // The number of commands to keep in the history buffer. Keep this a small number like 5 (otherwise major slowdowns may occur).
@@ -32,6 +26,13 @@ public class Backport : MonoBehaviour
     public const KeyCode INTERRUPT_VM_KEY = KeyCode.Escape;
 
     public static Backport INSTANCE;
+
+    public enum State
+    {
+        IDLE,
+        VM_RUNNING,
+        VM_RUNNING_AUTOEXEC
+    }
 
     [SerializeField]
     GameObject canvas;
@@ -397,7 +398,7 @@ public class Backport : MonoBehaviour
 
     static void WriteVersion()
     {
-        WriteLine(string.Format("Backport ver1.0 (risa {0})\n(C) 2022 The Deprimus Members\n", Risa.C99.VERSION));
+        WriteLine(string.Format("Backport ver{0} (risa {1})\n(C) 2022 The Deprimus Members\n", BACKPORT_VERSION, Risa.C99.VERSION));
     }
 
     static string Stdin(Risa.IO.InputMode mode)
