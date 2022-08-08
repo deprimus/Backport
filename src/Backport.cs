@@ -102,7 +102,7 @@ public class Backport : MonoBehaviour
                 history.RemoveLast();
             }
 
-            if (!text.EndsWith(';'))
+            if (!text.EndsWith(";"))
             {
                 // In case the user forgets the semicolon.
                 // Even if Risa expects a semicolon, it's a chore for the user to write it every single time.
@@ -429,8 +429,10 @@ public class Backport : MonoBehaviour
             && !Input.GetKeyDown(KeyCode.RightControl)
             && !Input.GetKeyDown(KeyCode.LeftAlt)
             && !Input.GetKeyDown(KeyCode.RightAlt)
-            && !Input.GetKeyDown(KeyCode.LeftMeta)
-            && !Input.GetKeyDown(KeyCode.RightMeta);
+            && !Input.GetKeyDown(KeyCode.LeftWindows)
+            && !Input.GetKeyDown(KeyCode.RightWindows)
+            && !Input.GetKeyDown(KeyCode.LeftCommand)
+            && !Input.GetKeyDown(KeyCode.RightCommand);
     }
 
     static void DeleteOldOutputLines(int limit)
