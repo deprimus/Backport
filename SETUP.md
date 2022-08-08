@@ -41,7 +41,7 @@ Here's how each object looks:
 </p>
 
 Note that there's a texture assigned to that image. You can find it [here](https://github.com/deprimus/Backport/tree/master/public/assets), but it has to be modified.
-Set the mesh type to `Full Rect`, open the sprite editor, and drag the box such that the top white border is not included.
+Set the mesh type to `Full Rect`, open the sprite editor, and drag the box such that the top white border is not included. Also, set the filter mode to `Point (no filter)`.
 
 Again, this is just a default texture that looks nice and is part of the default configuration; you can style the console however you want.
 
