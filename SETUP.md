@@ -4,7 +4,9 @@
 
 # Setup
 
-This guide isn't in-depth. If you don't know what this is, you don't need it.
+This guide isn't in-depth. Basically, Backport is used to provide an in-game console. This console is based on the Risa language. The setup consists of
+creating multiple objects and assigning some components. After this, you can use this console. You may customize the console appearance however you want.
+However, to make your life easier, a default configuration is described below, and default sprites are included in this repository.
 
 You must have [risa-sharp](https://github.com/exom-dev/risa-sharp) in your Unity project, and also a [C99 Risa](https://github.com/exom-dev/risa) DLL.
 Note that they are **included** in all Backport releases on this repo, so you can directly use those.
@@ -15,7 +17,7 @@ Afterwards, create an object structure like this:
   <img src="public/setup_structure.png" alt="Backport object structure">
 </p>
 
-See below how each object looks. Some image components have sprites attached to them,and you'll need them. You can find those sprites [here](https://github.com/deprimus/Backport/tree/master/public/assets).
+See below how each object looks. Some image components have sprites attached to them, and you'll need them. You can find those sprites [here](https://github.com/deprimus/Backport/tree/master/public/assets).
 
 <p align="center">
   <img src="public/setup_backport.png" alt="Backport">
