@@ -40,15 +40,6 @@ Here's how each object looks:
   <img src="public/setup_output.png" alt="Backport output">
 </p>
 
-Note that there's a texture assigned to that image. You can find it [here](https://github.com/deprimus/Backport/tree/master/public/assets), but it has to be modified.
-Set the mesh type to `Full Rect`, open the sprite editor, and drag the box such that the top white border is not included. Also, set the filter mode to `Point (no filter)`.
-
-Again, this is just a default texture that looks nice and is part of the default configuration; you can style the console however you want.
-
-<p align="center">
-  <img src="public/setup_input_sprite.png" alt="Backport output">
-</p>
-
 <p align="center">
   <img src="public/setup_output_text_area.png" alt="Backport output text area">
 </p>
@@ -76,6 +67,8 @@ Again, this is just a default texture that looks nice and is part of the default
 <p align="center">
   <img src="public/setup_input_container.png" alt="Backport input container">
 </p>
+
+Note that there's a texture assigned to that image. You can find it [here](https://github.com/deprimus/Backport/tree/master/public/assets). Make sure to set the filter mode to `Point (no filter)`.
 
 <p align="center">
   <img src="public/setup_input_prefix.png" alt="Backport input prefix">
