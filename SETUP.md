@@ -6,7 +6,8 @@
 
 This guide isn't in-depth. Basically, Backport is used to provide an in-game console. This console is based on the Risa language. The setup consists of
 creating multiple objects and assigning some components. After this, you can use this console. You may customize the console appearance however you want.
-However, to make your life easier, a default configuration is described below, and default sprites are included in this repository.
+To make your life easier, a default configuration is described below, and default sprites are included in this repository. In a nutshell, Backport uses
+a pair of input and output fields.
 
 You must have [risa-sharp](https://github.com/exom-dev/risa-sharp) in your Unity project, and also a [C99 Risa](https://github.com/exom-dev/risa) DLL.
 Note that they are **included** in all Backport releases on this repo, so you can directly use those.
@@ -17,7 +18,7 @@ Afterwards, create an object structure like this:
   <img src="public/setup_structure.png" alt="Backport object structure">
 </p>
 
-See below how each object looks. Some image components have sprites attached to them, and you'll need them. You can find those sprites [here](https://github.com/deprimus/Backport/tree/master/public/assets).
+Here's how each object looks:
 
 <p align="center">
   <img src="public/setup_backport.png" alt="Backport">
@@ -37,6 +38,15 @@ See below how each object looks. Some image components have sprites attached to 
 
 <p align="center">
   <img src="public/setup_output.png" alt="Backport output">
+</p>
+
+Note that there's a texture assigned to that image. You can find it [here](https://github.com/deprimus/Backport/tree/master/public/assets), but it has to be modified.
+Set the mesh type to `Full Rect`, open the sprite editor, and drag the box such that the top white border is not included.
+
+Again, this is just a default texture that looks nice and is part of the default configuration; you can style the console however you want.
+
+<p align="center">
+  <img src="public/setup_input_sprite.png" alt="Backport output">
 </p>
 
 <p align="center">
