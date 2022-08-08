@@ -15,7 +15,7 @@ Afterwards, create an object structure like this:
   <img src="public/setup_structure.png" alt="Backport object structure">
 </p>
 
-Here's how each object looks:
+See below how each object looks. Some images have sprites attached to them, you can find those [here](https://github.com/deprimus/Backport/tree/master/public/assets).
 
 <p align="center">
   <img src="public/setup_backport.png" alt="Backport">
